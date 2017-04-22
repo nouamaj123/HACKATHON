@@ -1,0 +1,59 @@
+/* SILICON VALLEY */
+.text {
+  fill: none;
+  stroke-width: 24;
+  stroke-linejoin: round;
+  stroke-dasharray: 90 300;
+  stroke-dashoffset: 10000;
+  -webkit-animation: stroke 12s infinite linear;
+  animation: stroke 12s infinite linear; }
+  .text:nth-child(5n + 1) {
+    stroke: #360745;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s; }
+  .text:nth-child(5n + 2) {
+    stroke: #D61C59;
+    -webkit-animation-delay: -2.4s;
+    animation-delay: -2.4s; }
+  .text:nth-child(5n + 3) {
+    stroke: #E7D84B;
+    -webkit-animation-delay: -3.6s;
+    animation-delay: -3.6s; }
+  .text:nth-child(5n + 4) {
+    stroke: #EFEAC5;
+    -webkit-animation-delay: -4.8s;
+    animation-delay: -4.8s; }
+  .text:nth-child(5n + 5) {
+    stroke: #1B8798;
+    -webkit-animation-delay: -6s;
+    animation-delay: -6s; }
+
+@-webkit-keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: -400; } }
+
+
+/* Other stuff */
+html,
+body {
+  height: 100%; }
+
+body {
+  background: #493382;
+  color: #fff; }
+
+.contentmaroc {
+  font: 800 14.5em/1  'Avenir', Impact; }
+
+svg {
+  width: 80%;
+  margin: 0 auto 20px;
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 60px
+   }
+
+/*# sourceMappingURL=style12.css.map */
