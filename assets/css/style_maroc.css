@@ -8,23 +8,23 @@
   -webkit-animation: stroke 12s infinite linear;
   animation: stroke 12s infinite linear; }
   .text:nth-child(5n + 1) {
-    stroke: #360745;
+    stroke: #ef5350;
     -webkit-animation-delay: -1.2s;
     animation-delay: -1.2s; }
   .text:nth-child(5n + 2) {
-    stroke: #D61C59;
+    stroke: #f44336;
     -webkit-animation-delay: -2.4s;
     animation-delay: -2.4s; }
   .text:nth-child(5n + 3) {
-    stroke: #E7D84B;
+    stroke: #e53935;
     -webkit-animation-delay: -3.6s;
     animation-delay: -3.6s; }
   .text:nth-child(5n + 4) {
-    stroke: #EFEAC5;
+    stroke: #c62828;
     -webkit-animation-delay: -4.8s;
     animation-delay: -4.8s; }
   .text:nth-child(5n + 5) {
-    stroke: #1B8798;
+    stroke: #ff8a80;
     -webkit-animation-delay: -6s;
     animation-delay: -6s; }
 
